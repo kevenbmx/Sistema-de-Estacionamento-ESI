@@ -16,6 +16,6 @@ public class Estacionamento {
 			return;
 		}
 		lista_carros.add(veiculo);
-		System.out.println("Carro adicionado com sucesso);
+		System.out.println("Carro adicionado com sucesso");
 	}
 }
