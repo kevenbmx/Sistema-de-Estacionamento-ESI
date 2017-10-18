@@ -11,10 +11,11 @@ public class Estacionamento {
 	}
 	
 	public void adiciona_Veiculo (Veiculo veiculo) {
-		if (lista_carros.size() > 9) { 
+		if (num_Carros() > 10) { 
 			System.out.println("Estacionamento Lotado!!!");
 			return;
 		}
 		lista_carros.add(veiculo);
+		System.out.println("Carro adicionado com sucesso);
 	}
 }
