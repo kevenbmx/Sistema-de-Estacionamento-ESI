@@ -78,9 +78,10 @@ public class tela_Login extends JFrame {
 		painel_Botoes.add(botao_Salvar);
 		painel_Botoes.add(botao_Fechar);
 		
-		add(painel_Titulo, BorderLayout.NORTH);
+		//add(painel_Titulo, BorderLayout.NORTH);
 		add(painel_Titulo, BorderLayout.CENTER);
-		add(painel_Titulo, BorderLayout.SOUTH);
+		//add(painel_Titulo, BorderLayout.SOUTH);
+		//add(painel_Titulo, BorderLayout.WEST);
 	}
 
 	

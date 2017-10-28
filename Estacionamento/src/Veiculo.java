@@ -9,6 +9,13 @@ public class Veiculo {
 	private String hora_Entrada;
 	private String hora_Saida;
 	
+	public Veiculo(String placa, String modelo,String marca, String hora_Entrada) {
+		this.placa = placa;
+		this.modelo = modelo;
+		this.hora_Entrada = hora_Entrada;
+		this.marca = marca;
+	}
+	
 	public void setMoto (boolean x) {
 		this.moto = x;
 	}
