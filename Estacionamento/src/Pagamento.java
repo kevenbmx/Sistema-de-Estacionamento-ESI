@@ -13,7 +13,7 @@ public class Pagamento {
 	public String paga(boolean cartao, double valor) {
 		if(cartao) {
 			//conecta a operadora de cartao
-			//chama metodo para cart„o
+			//chama metodo para cart√£o
 		}
 		if((getValorCobrado()-getValorEntregue())==0) {
 			return"ok";
@@ -26,8 +26,8 @@ public class Pagamento {
 	public boolean isCartao() {
 		return cartao;
 	}
-	public void setCartao(boolean cart„o) {
-		this.cartao = cart„o;
+	public void setCartao(boolean cartao) {
+		this.cartao = cartao;
 	}
 	
 
